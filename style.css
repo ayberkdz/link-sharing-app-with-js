@@ -1,0 +1,85 @@
+:root {
+    color: rgb(71, 69, 69);
+    font-size: calc(1em + 0.1vw);
+}
+
+.centered-text {
+    text-align: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    margin: 0 30vw;
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#generated-link {
+    overflow-wrap: break-word;
+}
+
+#links {
+    margin: 3vh 0;
+}
+
+#links > * {
+    margin-top: 1vh;
+}
+
+#links > * > * {
+    margin-top: 1vh;
+}
+
+#generate-bento-link {
+    margin-top: 4vh;
+}
+
+button {
+    color:#28282B;
+    background-color: #dedede;
+    border-style: solid;
+    border-color:#28282B;
+    border-radius: 3px;
+    font-size: 1rem;
+    font-family: Pangolin;
+    padding: 0.5vh 0;
+}
+
+button:active {
+    background-color: #a1a1a1;
+}
+
+input {
+    font-size: 1rem;
+    font-family: Pangolin;
+    border-style: solid;
+    border-color: #28282B;
+    border-radius: 3px;
+}
+
+#copy-button {
+    margin-bottom: 8vh;
+}
+
+#message {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+footer {
+    margin-top: 2vh;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="bento.js"></script>
+    <title>Link Bento</title>
+</head>
+<body>
+    <header class="column">
+        <h1 id="title" class="centered-text">Link Bento</h1>
+        <p id="subtitle" class="centered-text">Make a link lunchbox that you can send to your friends or family</p>
+        <h2>What is this?</h2>
+        <p>
+            Inspired by the japanese lunch box called "bento" the idea is to make a "lunch box" of carefully selected links that you send
+            to your friends or family with a single link. 
+        </p>
+        <p>
+            This project was made for a tutorial on how to build apps/websites with
+            HTML, CSS and JavaScript <a href="https://www.youtube.com/watch?v=S0WoTeT-DVM" target="_blank">Click here to watch it!</a>
+        </p>
+        <h2>Make your link bento</h2>
+    </header>
+    <form id="bento-form" class="column">
+        <label>Title</label>
+        <input id="bento-title">
+        <label>Author</label>
+        <input id="bento-author">
+        <label>Description</label>
+        <input id="bento-description">
+       
+        <div id="links">
+            <!-- Fill this dynamically  -->
+        </div>
+        <button id="add-button">Add link</button>
+    </form>
+    <div class="column">
+        <button id="generate-bento-link">Generate bento link</button>
+        <p id="generated-link"></p>
+        <span id="message" class="centered-text"></span>
+        <button id="copy-button">Copy to clipboard</button>
+    </div>
+</body>
+</html>
